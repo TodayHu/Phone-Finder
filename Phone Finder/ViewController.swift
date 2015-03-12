@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = UIColor(hue: 0, saturation: 0.7, brightness: 0.9, alpha: 1)
+        self.view.backgroundColor = UIColor(hue: 0, saturation: 0.7, brightness: 0.9, alpha: 1) //flat red
         
         let labelHeight: CGFloat = 100
         let label = UILabel(frame: CGRectMake(0, 0, self.view.frame.size.width, labelHeight))
@@ -25,17 +25,21 @@ class ViewController: UIViewController {
         label.center = CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/3 - labelHeight/2)
         self.view.addSubview(label)
         
-        let opaqueWhiteColor = UIColor(hue: 1, saturation: 0, brightness: 1, alpha: 0.75)
+        let transparentWhiteColor = UIColor(hue: 1, saturation: 0, brightness: 1, alpha: 0.75)
         let buttonWidth: CGFloat = 100
         let buttonHeight: CGFloat = 50
-        let button = UIButton(frame: CGRectMake(self.view.frame.size.width/2 - buttonWidth/2, self.view.frame.size.height/3*2 - buttonHeight/2, 100, 50))
+        
+        let button = MyButton(frame: CGRectMake(self.view.frame.size.width/2 - buttonWidth/2, self.view.frame.size.height/3*2 - buttonHeight/2, 100, 50))
         button.titleLabel?.font = UIFont(name: "Avenir", size: 15)
         button.setTitle("GOT IT", forState: .Normal)
-        button.setTitleColor(opaqueWhiteColor, forState: .Normal)
+        button.setTitleColor(transparentWhiteColor, forState: .Normal)
         button.setTitleColor(UIColor.whiteColor(), forState: .Highlighted)
+
+        
         button.layer.borderWidth = 2
-        button.layer.borderColor = opaqueWhiteColor.CGColor
+        button.layer.borderColor = transparentWhiteColor.CGColor
         button.layer.cornerRadius = 10
+        button.addTarget(self, action: "buttonPressed:", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(button)
         
     }
@@ -44,5 +48,28 @@ class ViewController: UIViewController {
         return UIStatusBarStyle.LightContent
     }
     
+    func buttonPressed(sender: UIButton!) {
+        println("test")
+    }
+    
+    
 }
 
+class MyButton : UIButton {
+    
+    override var highlighted: Bool {
+        get {
+            return super.highlighted
+        }
+        set {
+            if newValue {
+                backgroundColor = UIColor.whiteColor()
+                setTitleColor(self.superview?.backgroundColor, forState: .Highlighted)
+            }
+            else {
+                backgroundColor = UIColor.clearColor()
+            }
+            super.highlighted = newValue
+        }
+    }
+}
