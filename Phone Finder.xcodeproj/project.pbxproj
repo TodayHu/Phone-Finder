@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C88C6351AB212BC00A5E920 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C88C6341AB212BC00A5E920 /* InterfaceController.swift */; };
+		4C88C6371AB212BC00A5E920 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C88C6361AB212BC00A5E920 /* Images.xcassets */; };
+		4C88C63B1AB212BC00A5E920 /* Phone Finder WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 4C88C63A1AB212BC00A5E920 /* Phone Finder WatchKit App.app */; };
+		4C88C6431AB212BC00A5E920 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C88C6411AB212BC00A5E920 /* Interface.storyboard */; };
+		4C88C6451AB212BC00A5E920 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C88C6441AB212BC00A5E920 /* Images.xcassets */; };
+		4C88C6481AB212BC00A5E920 /* Phone Finder WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4C88C6301AB212BC00A5E920 /* Phone Finder WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4C9F4E791AAFB0790042BE54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9F4E781AAFB0790042BE54 /* AppDelegate.swift */; };
 		4C9F4E7B1AAFB0790042BE54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9F4E7A1AAFB0790042BE54 /* ViewController.swift */; };
 		4C9F4E7E1AAFB0790042BE54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C9F4E7C1AAFB0790042BE54 /* Main.storyboard */; };
@@ -16,6 +22,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4C88C63C1AB212BC00A5E920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C9F4E6B1AAFB0790042BE54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C88C6391AB212BC00A5E920;
+			remoteInfo = "Phone Finder WatchKit App";
+		};
+		4C88C6461AB212BC00A5E920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C9F4E6B1AAFB0790042BE54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C88C62F1AB212BC00A5E920;
+			remoteInfo = "Phone Finder WatchKit Extension";
+		};
 		4C9F4E891AAFB0790042BE54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4C9F4E6B1AAFB0790042BE54 /* Project object */;
@@ -25,7 +45,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4C88C64F1AB212BC00A5E920 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4C88C6481AB212BC00A5E920 /* Phone Finder WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4C88C6301AB212BC00A5E920 /* Phone Finder WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Phone Finder WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C88C6331AB212BC00A5E920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C88C6341AB212BC00A5E920 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4C88C6361AB212BC00A5E920 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C88C63A1AB212BC00A5E920 /* Phone Finder WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Finder WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C88C6401AB212BC00A5E920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C88C6421AB212BC00A5E920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4C88C6441AB212BC00A5E920 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4C9F4E731AAFB0790042BE54 /* Phone Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9F4E771AAFB0790042BE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C9F4E781AAFB0790042BE54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +81,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4C88C62D1AB212BC00A5E920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C9F4E701AAFB0790042BE54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -56,10 +105,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C88C6311AB212BC00A5E920 /* Phone Finder WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4C88C6341AB212BC00A5E920 /* InterfaceController.swift */,
+				4C88C6361AB212BC00A5E920 /* Images.xcassets */,
+				4C88C6321AB212BC00A5E920 /* Supporting Files */,
+			);
+			path = "Phone Finder WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4C88C6321AB212BC00A5E920 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C88C6331AB212BC00A5E920 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C88C63E1AB212BC00A5E920 /* Phone Finder WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4C88C6411AB212BC00A5E920 /* Interface.storyboard */,
+				4C88C6441AB212BC00A5E920 /* Images.xcassets */,
+				4C88C63F1AB212BC00A5E920 /* Supporting Files */,
+			);
+			path = "Phone Finder WatchKit App";
+			sourceTree = "<group>";
+		};
+		4C88C63F1AB212BC00A5E920 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C88C6401AB212BC00A5E920 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		4C9F4E6A1AAFB0790042BE54 = {
 			isa = PBXGroup;
 			children = (
 				4C9F4E751AAFB0790042BE54 /* Phone Finder */,
+				4C88C6311AB212BC00A5E920 /* Phone Finder WatchKit Extension */,
+				4C88C63E1AB212BC00A5E920 /* Phone Finder WatchKit App */,
 				4C9F4E8B1AAFB0790042BE54 /* Phone FinderTests */,
 				4C9F4E741AAFB0790042BE54 /* Products */,
 			);
@@ -70,6 +157,8 @@
 			children = (
 				4C9F4E731AAFB0790042BE54 /* Phone Finder.app */,
 				4C9F4E881AAFB0790042BE54 /* Phone FinderTests.xctest */,
+				4C88C6301AB212BC00A5E920 /* Phone Finder WatchKit Extension.appex */,
+				4C88C63A1AB212BC00A5E920 /* Phone Finder WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +204,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4C88C62F1AB212BC00A5E920 /* Phone Finder WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C88C64E1AB212BC00A5E920 /* Build configuration list for PBXNativeTarget "Phone Finder WatchKit Extension" */;
+			buildPhases = (
+				4C88C62C1AB212BC00A5E920 /* Sources */,
+				4C88C62D1AB212BC00A5E920 /* Frameworks */,
+				4C88C62E1AB212BC00A5E920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C88C63D1AB212BC00A5E920 /* PBXTargetDependency */,
+			);
+			name = "Phone Finder WatchKit Extension";
+			productName = "Phone Finder WatchKit Extension";
+			productReference = 4C88C6301AB212BC00A5E920 /* Phone Finder WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		4C88C6391AB212BC00A5E920 /* Phone Finder WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C88C64D1AB212BC00A5E920 /* Build configuration list for PBXNativeTarget "Phone Finder WatchKit App" */;
+			buildPhases = (
+				4C88C6381AB212BC00A5E920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Phone Finder WatchKit App";
+			productName = "Phone Finder WatchKit App";
+			productReference = 4C88C63A1AB212BC00A5E920 /* Phone Finder WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		4C9F4E721AAFB0790042BE54 /* Phone Finder */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C9F4E921AAFB0790042BE54 /* Build configuration list for PBXNativeTarget "Phone Finder" */;
@@ -122,10 +244,12 @@
 				4C9F4E6F1AAFB0790042BE54 /* Sources */,
 				4C9F4E701AAFB0790042BE54 /* Frameworks */,
 				4C9F4E711AAFB0790042BE54 /* Resources */,
+				4C88C64F1AB212BC00A5E920 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4C88C6471AB212BC00A5E920 /* PBXTargetDependency */,
 			);
 			name = "Phone Finder";
 			productName = "Phone Finder";
@@ -159,6 +283,13 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Michael Reiter";
 				TargetAttributes = {
+					4C88C62F1AB212BC00A5E920 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = PR7J8PE27Z;
+					};
+					4C88C6391AB212BC00A5E920 = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					4C9F4E721AAFB0790042BE54 = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = PR7J8PE27Z;
@@ -184,11 +315,31 @@
 			targets = (
 				4C9F4E721AAFB0790042BE54 /* Phone Finder */,
 				4C9F4E871AAFB0790042BE54 /* Phone FinderTests */,
+				4C88C62F1AB212BC00A5E920 /* Phone Finder WatchKit Extension */,
+				4C88C6391AB212BC00A5E920 /* Phone Finder WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4C88C62E1AB212BC00A5E920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C88C63B1AB212BC00A5E920 /* Phone Finder WatchKit App.app in Resources */,
+				4C88C6371AB212BC00A5E920 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C88C6381AB212BC00A5E920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C88C6431AB212BC00A5E920 /* Interface.storyboard in Resources */,
+				4C88C6451AB212BC00A5E920 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C9F4E711AAFB0790042BE54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +360,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4C88C62C1AB212BC00A5E920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C88C6351AB212BC00A5E920 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C9F4E6F1AAFB0790042BE54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,6 +388,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4C88C63D1AB212BC00A5E920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C88C6391AB212BC00A5E920 /* Phone Finder WatchKit App */;
+			targetProxy = 4C88C63C1AB212BC00A5E920 /* PBXContainerItemProxy */;
+		};
+		4C88C6471AB212BC00A5E920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C88C62F1AB212BC00A5E920 /* Phone Finder WatchKit Extension */;
+			targetProxy = 4C88C6461AB212BC00A5E920 /* PBXContainerItemProxy */;
+		};
 		4C9F4E8A1AAFB0790042BE54 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4C9F4E721AAFB0790042BE54 /* Phone Finder */;
@@ -237,6 +406,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		4C88C6411AB212BC00A5E920 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C88C6421AB212BC00A5E920 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		4C9F4E7C1AAFB0790042BE54 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -256,6 +433,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4C88C6491AB212BC00A5E920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Phone Finder WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4C88C64A1AB212BC00A5E920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Phone Finder WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4C88C64B1AB212BC00A5E920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Phone_Finder_WatchKit_Extension;
+				INFOPLIST_FILE = "Phone Finder WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		4C88C64C1AB212BC00A5E920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Phone_Finder_WatchKit_Extension;
+				INFOPLIST_FILE = "Phone Finder WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 		4C9F4E901AAFB0790042BE54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -338,6 +571,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Phone Finder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -349,6 +583,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Phone Finder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -392,6 +627,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4C88C64D1AB212BC00A5E920 /* Build configuration list for PBXNativeTarget "Phone Finder WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C88C64B1AB212BC00A5E920 /* Debug */,
+				4C88C64C1AB212BC00A5E920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C88C64E1AB212BC00A5E920 /* Build configuration list for PBXNativeTarget "Phone Finder WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C88C6491AB212BC00A5E920 /* Debug */,
+				4C88C64A1AB212BC00A5E920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		4C9F4E6E1AAFB0790042BE54 /* Build configuration list for PBXProject "Phone Finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

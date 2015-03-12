@@ -32,12 +32,10 @@ class ViewController: UIViewController {
         let button = MyButton(frame: CGRectMake(self.view.frame.size.width/2 - buttonWidth/2, self.view.frame.size.height/3*2 - buttonHeight/2, 100, 50))
         button.titleLabel?.font = UIFont(name: "Avenir", size: 15)
         button.setTitle("GOT IT", forState: .Normal)
-        button.setTitleColor(transparentWhiteColor, forState: .Normal)
-        button.setTitleColor(UIColor.whiteColor(), forState: .Highlighted)
-
+        button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
         
         button.layer.borderWidth = 2
-        button.layer.borderColor = transparentWhiteColor.CGColor
+        button.layer.borderColor = UIColor.whiteColor().CGColor
         button.layer.cornerRadius = 10
         button.addTarget(self, action: "buttonPressed:", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(button)
@@ -51,7 +49,6 @@ class ViewController: UIViewController {
     func buttonPressed(sender: UIButton!) {
         println("test")
     }
-    
     
 }
 
