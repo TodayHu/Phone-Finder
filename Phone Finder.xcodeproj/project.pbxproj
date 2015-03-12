@@ -408,6 +408,7 @@
 				4C9F4E941AAFB0790042BE54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C9F4E951AAFB0790042BE54 /* Build configuration list for PBXNativeTarget "Phone FinderTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +417,7 @@
 				4C9F4E971AAFB0790042BE54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
