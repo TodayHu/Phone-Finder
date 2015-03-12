@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8D1FA6E9-6A78-4885-B0FE-22BFFFFFBC15</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Phone Finder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>68487D6D3A9F2E1F21B224E22C3A6E4D7664164E</key>
+		<string>https://github.com/MichaelReiter/Phone-Finder</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Phone Finder.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>68487D6D3A9F2E1F21B224E22C3A6E4D7664164E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MichaelReiter/Phone-Finder</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>68487D6D3A9F2E1F21B224E22C3A6E4D7664164E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>68487D6D3A9F2E1F21B224E22C3A6E4D7664164E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Phone%20Finder</string>
+		</dict>
+	</array>
+</dict>
+</plist>
