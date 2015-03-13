@@ -10,6 +10,12 @@ import WatchKit
 import Foundation
 
 class InterfaceController: WKInterfaceController {
+    
+    @IBAction func openPhoneApp() {
+        let dict = NSDictionary()
+        WKInterfaceController.openParentApplication(dict, reply: nil)
+        println("launch app")
+    }
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)

@@ -20,17 +20,17 @@ class ViewController: UIViewController {
         label.textAlignment = .Center
         label.textColor = UIColor.whiteColor()
         label.backgroundColor = UIColor.clearColor()
-        label.text = "OVER HERE"
-        label.font = UIFont(name: "Avenir", size: 30)
+        label.text = "HERE I AM"
+        label.font = UIFont(name: "Avenir", size: 50)
         label.center = CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/3 - labelHeight/2)
         self.view.addSubview(label)
         
         let transparentWhiteColor = UIColor(hue: 1, saturation: 0, brightness: 1, alpha: 0.75)
-        let buttonWidth: CGFloat = 100
-        let buttonHeight: CGFloat = 50
+        let buttonWidth: CGFloat = 150
+        let buttonHeight: CGFloat = 75
         
-        let button = MyButton(frame: CGRectMake(self.view.frame.size.width/2 - buttonWidth/2, self.view.frame.size.height/3*2 - buttonHeight/2, 100, 50))
-        button.titleLabel?.font = UIFont(name: "Avenir", size: 15)
+        let button = MyButton(frame: CGRectMake(self.view.frame.size.width/2 - buttonWidth/2, self.view.frame.size.height/3*2 - buttonHeight/2, buttonWidth, buttonHeight))
+        button.titleLabel?.font = UIFont(name: "Avenir", size: 25)
         button.setTitle("GOT IT", forState: .Normal)
         button.setTitleColor(UIColor.whiteColor(), forState: .Normal)
         
@@ -49,7 +49,6 @@ class ViewController: UIViewController {
     func buttonPressed(sender: UIButton!) {
         println("test")
     }
-    
 }
 
 class MyButton : UIButton {

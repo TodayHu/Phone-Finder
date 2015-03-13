@@ -10,7 +10,11 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Phone_Finder_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <button width="1" alignment="center" verticalAlignment="bottom" title="Find it" id="oYK-24-cwt"/>
+                        <button width="1" alignment="center" verticalAlignment="bottom" title="Find it" id="oYK-24-cwt">
+                            <connections>
+                                <action selector="openPhoneApp" destination="AgC-eL-Hgc" id="CGN-4p-yM6"/>
+                            </connections>
+                        </button>
                         <label alignment="center" text="Lost your phone?" id="AtT-nn-Ubt"/>
                     </items>
                 </controller>
