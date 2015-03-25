@@ -2,4 +2,4 @@
 An Apple Watch app to help users find their lost phone built in Swift.
 
 Update: Development had to be cancelled because there is no API to launch the iPhone host app from the Watch.
-I'm repurposing the UI for a new app.
+I'm repurposing the UI for a new app, Random Color Picker. The new project can be found here: https://github.com/MichaelReiter/Random-Color-Generator
